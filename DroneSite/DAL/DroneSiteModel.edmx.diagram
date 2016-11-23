@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fb19da749c604e8298566919bbf2e960" Name="Diagram1">
+        <EntityTypeShape EntityType="ac216team05dbModel.Article" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ac216team05dbModel.Drone" Width="1.5" PointX="6" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ac216team05dbModel.Order" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ac216team05dbModel.Order_Address" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ac216team05dbModel.Order_Line" Width="1.5" PointX="8.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ac216team05dbModel.Person" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="ac216team05dbModel.FK_Article_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="ac216team05dbModel.drone_id" ManuallyRouted="false" />
+        <AssociationConnector Association="ac216team05dbModel.FK__Order_Add__order__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="ac216team05dbModel.order_id" ManuallyRouted="false" />
+        <AssociationConnector Association="ac216team05dbModel.person_id" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

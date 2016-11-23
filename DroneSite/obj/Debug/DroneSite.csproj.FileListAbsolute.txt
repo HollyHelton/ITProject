@@ -1,1 +1,2 @@
 C:\Users\aleksejsloginovs\Desktop\my IT project\ITProject\DroneSite\obj\Debug\DroneSite.csprojResolveAssemblyReference.cache
+C:\Users\hollyhelton\Desktop\ITProject\DroneSite\obj\Debug\DroneSite.csprojResolveAssemblyReference.cache
