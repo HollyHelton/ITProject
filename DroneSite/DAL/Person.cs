@@ -20,13 +20,13 @@ namespace DroneSite.DAL
             this.Orders = new HashSet<Order>();
         }
     
-        public int id { get; set; }
-        public string first_name { get; set; }
-        public string middle_name { get; set; }
-        public string last_name { get; set; }
-        public string username { get; set; }
-        public string user_password { get; set; }
-        public string user_type { get; set; }
+        public int ID { get; set; }
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string LastName { get; set; }
+        public string Username { get; set; }
+        public string Password { get; set; }
+        public string Type { get; set; }
     
         public virtual ICollection<Article> Articles { get; set; }
         public virtual ICollection<Order> Orders { get; set; }

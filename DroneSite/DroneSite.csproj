@@ -236,7 +236,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="DAL\ApplicationDbContext.cs" />
     <Compile Include="Pages\ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -305,7 +304,8 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
-    <Compile Include="Users\RoleManager.cs" />
+    <Compile Include="Users\IdentityModel.cs" />
+    <Compile Include="Users\RoleActions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
