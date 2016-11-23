@@ -12,6 +12,7 @@ namespace DroneSite.Models
         public string description { get; set; }
         public string image_link { get; set; }
         public string image_description { get; set; }
+        [Required]
         public int stock { get; set; }
         public string dimensions { get; set; }
         public int weight { get; set; }
