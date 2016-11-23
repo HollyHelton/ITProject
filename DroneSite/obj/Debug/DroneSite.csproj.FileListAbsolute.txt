@@ -1,1 +1,19 @@
 C:\Users\aleksejsloginovs\Desktop\my IT project\ITProject\DroneSite\obj\Debug\DroneSite.csprojResolveAssemblyReference.cache
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\obj\Debug\DroneSite.csprojResolveAssemblyReference.cache
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\DroneSite.dll.config
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\DroneSite.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\DroneSite.pdb
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\Antlr3.Runtime.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\Newtonsoft.Json.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\System.Web.Optimization.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\WebGrease.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\System.Web.Optimization.xml
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\Antlr3.Runtime.pdb
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\bin\Newtonsoft.Json.xml
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\obj\Debug\DroneSite.dll
+C:\Users\aleksejsloginovs\Desktop\ITProj\ITProject\DroneSite\obj\Debug\DroneSite.pdb
