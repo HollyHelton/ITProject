@@ -149,8 +149,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
+    <Content Include="Pages\AboutUs.aspx" />
+    <Content Include="Pages\ContactUs.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="DAL\DroneSiteModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -180,19 +180,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="DAL\ApplicationDbContext.cs" />
+    <Compile Include="Pages\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="DAL\Article.cs">
       <DependentUpon>DroneSiteModel.tt</DependentUpon>
@@ -251,6 +242,7 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="Users\RoleManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
