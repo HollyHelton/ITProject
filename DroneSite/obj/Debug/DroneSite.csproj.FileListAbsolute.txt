@@ -1,3 +1,0 @@
-C:\Users\aleksejsloginovs\Desktop\my IT project\ITProject\DroneSite\obj\Debug\DroneSite.csprojResolveAssemblyReference.cache
-C:\Users\hollyhelton\Desktop\ITProject\DroneSite\obj\Debug\DroneSite.csprojResolveAssemblyReference.cache
-C:\Users\Holly\Google Drive\Uni\IT Project\Site\ITProject\DroneSite\obj\Debug\DroneSite.csprojResolveAssemblyReference.cache
