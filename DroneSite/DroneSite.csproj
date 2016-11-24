@@ -165,7 +165,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DAL\Article.cs">
       <DependentUpon>DroneSiteModel.tt</DependentUpon>
@@ -223,7 +222,6 @@
     <Compile Include="Models\Person.cs" />
     <Compile Include="OrderManagement\ViewOrders.aspx.cs">
       <DependentUpon>ViewOrders.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="OrderManagement\ViewOrders.aspx.designer.cs">
       <DependentUpon>ViewOrders.aspx</DependentUpon>
