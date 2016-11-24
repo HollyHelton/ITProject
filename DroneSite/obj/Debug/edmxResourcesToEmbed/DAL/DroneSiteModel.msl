@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ac216team05dbModelStoreContainer" CdmEntityContainer="ac216team05dbEntities1">
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="ac216team05dbModel.Article">
+        <MappingFragment StoreEntitySet="Article">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="body" ColumnName="body" />
+          <ScalarProperty Name="image_link" ColumnName="image_link" />
+          <ScalarProperty Name="image_description" ColumnName="image_description" />
+          <ScalarProperty Name="date_created" ColumnName="date_created" />
+          <ScalarProperty Name="author" ColumnName="author" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Drones">
+      <EntityTypeMapping TypeName="ac216team05dbModel.Drone">
+        <MappingFragment StoreEntitySet="Drone">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="image_link" ColumnName="image_link" />
+          <ScalarProperty Name="image_description" ColumnName="image_description" />
+          <ScalarProperty Name="stock" ColumnName="stock" />
+          <ScalarProperty Name="size" ColumnName="size" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="battery_life" ColumnName="battery_life" />
+          <ScalarProperty Name="range" ColumnName="range" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="ac216team05dbModel.Order">
+        <MappingFragment StoreEntitySet="Order">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="person_id" ColumnName="person_id" />
+          <ScalarProperty Name="order_date" ColumnName="order_date" />
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="return_date" ColumnName="return_date" />
+          <ScalarProperty Name="date_returned" ColumnName="date_returned" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_Address">
+      <EntityTypeMapping TypeName="ac216team05dbModel.Order_Address">
+        <MappingFragment StoreEntitySet="Order_Address">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="middle_name" ColumnName="middle_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="line_1" ColumnName="line_1" />
+          <ScalarProperty Name="line_2" ColumnName="line_2" />
+          <ScalarProperty Name="line_3" ColumnName="line_3" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="postcode" ColumnName="postcode" />
+          <ScalarProperty Name="address_type" ColumnName="address_type" />
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Order_Line">
+      <EntityTypeMapping TypeName="ac216team05dbModel.Order_Line">
+        <MappingFragment StoreEntitySet="Order_Line">
+          <ScalarProperty Name="order_id" ColumnName="order_id" />
+          <ScalarProperty Name="drone_id" ColumnName="drone_id" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="ac216team05dbModel.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="middle_name" ColumnName="middle_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="user_password" ColumnName="user_password" />
+          <ScalarProperty Name="user_type" ColumnName="user_type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
