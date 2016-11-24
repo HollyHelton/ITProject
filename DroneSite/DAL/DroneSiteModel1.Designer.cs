@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\hollyhelton\Desktop\ITProject\DroneSite\DAL\DroneSiteModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Martin\Documents\GitHubVisualStudio\ITProject\DroneSite\DAL\DroneSiteModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
